@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_RA_EVA_7_MORE_ACTIONS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="proyecto_ashe" translatesAutoresizingMaskIntoConstraints="NO" id="Khv-6r-Oqv">
+                                <rect key="frame" x="146" y="40" width="308" height="179"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="308" id="AtA-I8-P2e"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="308" id="fWa-1T-9zA"/>
+                                    <constraint firstAttribute="height" constant="179" id="g1j-Eq-t5q"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Nombre:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCo-w6-uic">
+                                <rect key="frame" x="20" y="289" width="75" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VcH-4r-Uoz">
+                                <rect key="frame" x="95" y="289" width="485" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldDoneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="sWh-nJ-QFZ"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Edad:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytF-Bu-8RW">
+                                <rect key="frame" x="23" y="343" width="72" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="4r9-yp-ryd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KY8-Qz-iTd">
+                                <rect key="frame" x="95" y="340" width="485" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldDoneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="QML-5b-NqP"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfA-Kt-fky">
+                                <rect key="frame" x="277" y="412" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="KY8-Qz-iTd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3E5-YL-SoL"/>
+                            <constraint firstItem="dCo-w6-uic" firstAttribute="top" secondItem="VcH-4r-Uoz" secondAttribute="top" id="48D-nK-Uv6"/>
+                            <constraint firstItem="ytF-Bu-8RW" firstAttribute="width" secondItem="dCo-w6-uic" secondAttribute="width" id="8Un-Iy-xA2"/>
+                            <constraint firstItem="VcH-4r-Uoz" firstAttribute="top" secondItem="Khv-6r-Oqv" secondAttribute="bottom" constant="70" id="Cwt-Ml-yFe"/>
+                            <constraint firstItem="Khv-6r-Oqv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G4L-G5-FAI"/>
+                            <constraint firstItem="VcH-4r-Uoz" firstAttribute="leading" secondItem="dCo-w6-uic" secondAttribute="trailing" id="MNP-AW-Q8k"/>
+                            <constraint firstItem="dCo-w6-uic" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="R8p-fU-4Qn"/>
+                            <constraint firstItem="ytF-Bu-8RW" firstAttribute="trailing" secondItem="dCo-w6-uic" secondAttribute="trailing" id="XJG-gC-7xu"/>
+                            <constraint firstItem="Khv-6r-Oqv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Z9g-ub-itH"/>
+                            <constraint firstItem="VcH-4r-Uoz" firstAttribute="trailing" secondItem="KY8-Qz-iTd" secondAttribute="trailing" id="aMt-Ek-Q9S"/>
+                            <constraint firstItem="VcH-4r-Uoz" firstAttribute="leading" secondItem="KY8-Qz-iTd" secondAttribute="leading" id="dlK-7a-oVl"/>
+                            <constraint firstItem="KY8-Qz-iTd" firstAttribute="top" secondItem="VcH-4r-Uoz" secondAttribute="bottom" constant="21" id="eGH-yb-BPb"/>
+                            <constraint firstItem="VcH-4r-Uoz" firstAttribute="bottom" secondItem="dCo-w6-uic" secondAttribute="bottom" id="gK2-M4-zmG"/>
+                            <constraint firstItem="KY8-Qz-iTd" firstAttribute="baseline" secondItem="ytF-Bu-8RW" secondAttribute="baseline" id="ufW-Zd-u6R"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Vtq-Aj-CKf" appends="YES" id="FgR-qx-GJX"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="txtFldEdad" destination="KY8-Qz-iTd" id="XDY-7O-h1V"/>
+                        <outlet property="txtFldNom" destination="VcH-4r-Uoz" id="Shw-FM-TUj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Vtq-Aj-CKf">
+                    <connections>
+                        <action selector="onTapGestureRecognizer:" destination="BYZ-38-t0r" id="LdA-6J-db3"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="proyecto_ashe" width="480" height="360"/>
+    </resources>
+</document>
