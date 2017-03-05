@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_RA_EVA_6_ASSETS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="plat1_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ncx-sf-sYR">
+                                <rect key="frame" x="180" y="45" width="240" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vhx-MX-o7z">
+                                <rect key="frame" x="18" y="195" width="564" height="31"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="miValor:" destination="BYZ-38-t0r" eventType="valueChanged" id="4vm-2b-XYt"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFJ-Z5-T9B">
+                                <rect key="frame" x="245" y="275" width="110" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uwm-Mm-v9f">
+                                <rect key="frame" x="220" y="340" width="161" height="39"/>
+                                <animations/>
+                                <state key="normal" title="Mi Boton" backgroundImage="button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="moradobutton"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vhx-MX-o7z" firstAttribute="top" secondItem="ncx-sf-sYR" secondAttribute="bottom" constant="67" id="I77-IM-ltv"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Vhx-MX-o7z" secondAttribute="leading" id="MRP-HF-mzn"/>
+                            <constraint firstItem="ncx-sf-sYR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mx4-VS-PZt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vhx-MX-o7z" secondAttribute="trailing" id="YJf-ld-6yz"/>
+                            <constraint firstItem="Uwm-Mm-v9f" firstAttribute="top" secondItem="eFJ-Z5-T9B" secondAttribute="bottom" constant="35" id="aCc-Iv-tbs"/>
+                            <constraint firstItem="ncx-sf-sYR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="euC-dH-WKE"/>
+                            <constraint firstItem="eFJ-Z5-T9B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fFU-oO-wux"/>
+                            <constraint firstItem="eFJ-Z5-T9B" firstAttribute="top" secondItem="Vhx-MX-o7z" secondAttribute="bottom" constant="20" id="gEh-UC-GQB"/>
+                            <constraint firstItem="Uwm-Mm-v9f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ulD-Q0-33y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblVal" destination="eFJ-Z5-T9B" id="u24-lH-kf7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="540" y="430"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button" width="40" height="39"/>
+        <image name="moradobutton" width="45" height="41"/>
+        <image name="plat1_logo" width="100" height="100"/>
+    </resources>
+</document>
