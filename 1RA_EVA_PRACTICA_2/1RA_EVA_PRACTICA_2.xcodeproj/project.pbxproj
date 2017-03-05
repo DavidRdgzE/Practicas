@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A223A4E41E5759E900D2CCAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A223A4E31E5759E900D2CCAC /* AppDelegate.swift */; };
+		A223A4E61E5759E900D2CCAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A223A4E51E5759E900D2CCAC /* ViewController.swift */; };
+		A223A4E91E5759E900D2CCAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A223A4E71E5759E900D2CCAC /* Main.storyboard */; };
+		A223A4EB1E5759E900D2CCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A223A4EA1E5759E900D2CCAC /* Assets.xcassets */; };
+		A223A4EE1E5759E900D2CCAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A223A4EC1E5759E900D2CCAC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A223A4E01E5759E900D2CCAC /* 1RA_EVA_PRACTICA_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1RA_EVA_PRACTICA_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A223A4E31E5759E900D2CCAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A223A4E51E5759E900D2CCAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A223A4E81E5759E900D2CCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A223A4EA1E5759E900D2CCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A223A4ED1E5759E900D2CCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A223A4EF1E5759E900D2CCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A223A4DD1E5759E900D2CCAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A223A4D71E5759E900D2CCAC = {
+			isa = PBXGroup;
+			children = (
+				A223A4E21E5759E900D2CCAC /* 1RA_EVA_PRACTICA_2 */,
+				A223A4E11E5759E900D2CCAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A223A4E11E5759E900D2CCAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A223A4E01E5759E900D2CCAC /* 1RA_EVA_PRACTICA_2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A223A4E21E5759E900D2CCAC /* 1RA_EVA_PRACTICA_2 */ = {
+			isa = PBXGroup;
+			children = (
+				A223A4E31E5759E900D2CCAC /* AppDelegate.swift */,
+				A223A4E51E5759E900D2CCAC /* ViewController.swift */,
+				A223A4E71E5759E900D2CCAC /* Main.storyboard */,
+				A223A4EA1E5759E900D2CCAC /* Assets.xcassets */,
+				A223A4EC1E5759E900D2CCAC /* LaunchScreen.storyboard */,
+				A223A4EF1E5759E900D2CCAC /* Info.plist */,
+			);
+			path = 1RA_EVA_PRACTICA_2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A223A4DF1E5759E900D2CCAC /* 1RA_EVA_PRACTICA_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A223A4F21E5759E900D2CCAC /* Build configuration list for PBXNativeTarget "1RA_EVA_PRACTICA_2" */;
+			buildPhases = (
+				A223A4DC1E5759E900D2CCAC /* Sources */,
+				A223A4DD1E5759E900D2CCAC /* Frameworks */,
+				A223A4DE1E5759E900D2CCAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1RA_EVA_PRACTICA_2;
+			productName = 1RA_EVA_PRACTICA_2;
+			productReference = A223A4E01E5759E900D2CCAC /* 1RA_EVA_PRACTICA_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A223A4D81E5759E900D2CCAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DAVIDRDZ;
+				TargetAttributes = {
+					A223A4DF1E5759E900D2CCAC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A223A4DB1E5759E900D2CCAC /* Build configuration list for PBXProject "1RA_EVA_PRACTICA_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A223A4D71E5759E900D2CCAC;
+			productRefGroup = A223A4E11E5759E900D2CCAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A223A4DF1E5759E900D2CCAC /* 1RA_EVA_PRACTICA_2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A223A4DE1E5759E900D2CCAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A223A4EE1E5759E900D2CCAC /* LaunchScreen.storyboard in Resources */,
+				A223A4EB1E5759E900D2CCAC /* Assets.xcassets in Resources */,
+				A223A4E91E5759E900D2CCAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A223A4DC1E5759E900D2CCAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A223A4E61E5759E900D2CCAC /* ViewController.swift in Sources */,
+				A223A4E41E5759E900D2CCAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A223A4E71E5759E900D2CCAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A223A4E81E5759E900D2CCAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A223A4EC1E5759E900D2CCAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A223A4ED1E5759E900D2CCAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A223A4F01E5759E900D2CCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A223A4F11E5759E900D2CCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A223A4F31E5759E900D2CCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 1RA_EVA_PRACTICA_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "micompania.com.-RA-EVA-PRACTICA-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A223A4F41E5759E900D2CCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 1RA_EVA_PRACTICA_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "micompania.com.-RA-EVA-PRACTICA-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A223A4DB1E5759E900D2CCAC /* Build configuration list for PBXProject "1RA_EVA_PRACTICA_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A223A4F01E5759E900D2CCAC /* Debug */,
+				A223A4F11E5759E900D2CCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A223A4F21E5759E900D2CCAC /* Build configuration list for PBXNativeTarget "1RA_EVA_PRACTICA_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A223A4F31E5759E900D2CCAC /* Debug */,
+				A223A4F41E5759E900D2CCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A223A4D81E5759E900D2CCAC /* Project object */;
+}
